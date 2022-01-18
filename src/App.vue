@@ -1,28 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img href="https://www.figma.com/file/QLWjsgvlM6DoUlXvZsXhYQ/IAAS?node-id=11883%3A81078" />
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/5c2K5mD/Amazon-EC2-DB-on-Instance-dark-bg.png" alt="Amazon-EC2-DB-on-Instance-dark-bg" border="0"></a>
+    <dev-ex />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import DevEx from './components/DevEx';
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components :{
+    DevEx,
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
